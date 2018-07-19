@@ -6,5 +6,5 @@ yarn-error.log
 test/
 test.js
 package-lock.json
-.nyc_output
-.coverage
+.nyc_output/
+coverage/
