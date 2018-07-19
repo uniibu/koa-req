@@ -1,0 +1,40 @@
+{
+  "name": "koa-req",
+  "version": "1.0.0",
+  "description": "Koa v2 request middleware for adding extra security and cors on koa requests.",
+  "private": false,
+  "engines": {
+    "node": ">=8 <=10"
+  },
+  "main": "index.js",
+  "keywords": [
+    "koa request cors security helmet"
+  ],
+  "author": "Uni Sayo <unibtc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --fix --ext .js .",
+    "test": "npm run lint && nyc mocha --check-leaks"
+  },
+  "repository": "https://github.com/uniibu/koa-req",
+  "bugs": {
+    "url": "https://github.com/uniibu/koa-req/issues"
+  },
+  "homepage": "https://github.com/uniibu/koa-req#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "koa": "^2.5.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "supertest": "^3.1.0"
+  },
+  "dependencies": {
+    "helmet": "^3.12.1"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
