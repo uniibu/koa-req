@@ -13,6 +13,10 @@
   "author": "Uni Sayo <unibtc@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "patch": "npm version patch && npm publish",
+    "minor": "npm version minor && npm publish",
+    "major": "npm version major && npm publish",
+    "postpublish": "git push origin master --follow-tags",
     "lint": "eslint --fix --ext .js .",
     "test": "npm run lint && nyc mocha --check-leaks"
   },
