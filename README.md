@@ -7,7 +7,7 @@
 ## Usage
 ```js
 const Koa = require('koa');
-const kreq = require('koa-req')'
+const kreq = require('koa-req');
 const app = new Koa();
 kreq(app)
 ```
