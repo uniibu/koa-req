@@ -1,6 +1,6 @@
 {
   "name": "koa-req",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Koa v2 request middleware for adding extra security and cors on koa requests.",
   "private": false,
   "engines": {
@@ -29,7 +29,11 @@
     "supertest": "^3.1.0"
   },
   "dependencies": {
-    "helmet": "^3.12.1"
+    "@koa/cors": "^2.2.2",
+    "helmet": "^3.12.1",
+    "ipaddr.js": "^1.8.0",
+    "koa-helmet": "^4.0.0",
+    "koa-logger": "^3.2.0"
   },
   "nyc": {
     "reporter": [
