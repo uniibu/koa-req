@@ -35,7 +35,6 @@
         "max": 1
       }
     ],
-    "brace-style": "error",
     "array-element-newline": [
       "error",
       "never"
