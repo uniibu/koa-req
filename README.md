@@ -15,7 +15,6 @@ kreq(app)
 ## Options
 `corsEnabled` - [Boolean] Default `true`
 `helmetEnabled` - [Boolean] Default `true`
-`ipFixEnabled` - [Boolean] Default `true`
 `loggerEnabled` - [Boolean] Default `true`
 `cors` - [Object] Contains options to pass to `koa/cors`
 `helmet` - [Object] Contains optiosn to pass to `koa-helmet`
