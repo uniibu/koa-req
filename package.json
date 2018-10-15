@@ -1,6 +1,6 @@
 {
   "name": "koa-req",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Koa v2 request middleware for adding extra security and cors on koa requests.",
   "private": false,
   "engines": {
