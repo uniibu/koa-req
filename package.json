@@ -35,7 +35,7 @@
   "dependencies": {
     "@koa/cors": "^2.2.2",
     "helmet": "^3.12.1",
-    "ipaddr.js": "^1.8.0",
+    "ipaddr.js": "^2.0.0",
     "koa-helmet": "^4.0.0",
     "koa-log-lite": "^1.0.4"
   },
