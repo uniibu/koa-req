@@ -4,7 +4,7 @@
   "description": "Koa v2 request middleware for adding extra security and cors on koa requests.",
   "private": false,
   "engines": {
-    "node": ">=8 <=10"
+    "node": "<=20"
   },
   "main": "index.js",
   "keywords": [
